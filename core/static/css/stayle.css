@@ -1,0 +1,219 @@
+
+body{
+background-color: #000000;
+}
+
+/* form*/
+
+#form-container{
+padding: 25px;
+margin-top: 1.3em;
+background-color: #794dc0;
+border-radius: 1.3em;
+box-shadow: 1px 1px 10px 1px rgb(255, 255, 255) ;
+}
+
+#form-container h2{
+font-weight: 900;
+margin-bottom: 30px;
+
+}
+#form-container form{
+padding-bottom: 0;
+}
+
+#form-container .form-control {
+border: none;
+border-bottom: 1px solid #ccc;
+border-radius: 0;
+}
+#form-container .form-control:focus{
+box-shadow: none;
+}
+
+#form-container button{
+margin: 1em;
+text-align: center;
+
+
+
+}
+
+.row.align-items-center{
+
+display:  flex;
+
+}
+#form-container .form-floating> .form-control:focus~label{
+color: #222;
+} 
+
+.lol    {
+font-size: 1.3em;
+}
+
+.form-floating.mb-3 {
+position: relative;
+}
+
+.form-floating.mb-3 input[type="tel"] {
+padding: 0.375rem 0.75rem;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+background-color: #f9fcfc;
+color: #495057;
+outline: none;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-floating.mb-3 input[type="tel"]:focus {
+border-color: #80bdff;
+box-shadow: 0 0 0 0.25rem rgba(248, 248, 248, 0.25);
+}
+
+.form-floating.mb-3 label {
+position: absolute;
+pointer-events: none;
+left: 0.75rem;
+top: 0.625rem;
+transition: top 0.15s ease-in-out, font-size 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.form-floating.mb-3 input[type="tel"]:focus ~ label,
+.form-floating.mb-3 input[type="tel"]:not(:placeholder-shown) ~ label {
+top: 0.25rem;
+font-size: 0.75rem;
+color: #6c757d;
+}
+
+/* Adjustments for tel input */
+.form-floating.mb-3 input[type="tel"]::-webkit-input-placeholder {
+color: transparent;
+}
+
+.form-floating.mb-3 input[type="tel"]::-moz-placeholder {
+color: transparent;
+}
+
+.form-floating.mb-3 input[type="tel"]:-ms-input-placeholder {
+color: transparent;
+}
+
+.form-floating.mb-3 input[type="tel"]::placeholder {
+color: transparent;
+}
+
+/* Ajustes para a label do input */
+.form-floating.mb-3 label {
+position: absolute;
+pointer-events: none;
+left: 0.75rem;
+top: 0.625rem;
+transition: top 0.15s ease-in-out, font-size 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+/* Quando o input estiver focado ou não estiver vazio, move a label para cima */
+.form-floating.mb-3 input:focus ~ label,
+.form-floating.mb-3 input:not(:placeholder-shown) ~ label {
+top: 0.25rem;
+font-size: 0.75rem;
+color: #6c757d;
+}
+
+/* Oculta o placeholder quando a label estiver visível */
+.form-floating.mb-3 input::-webkit-input-placeholder {
+color: transparent;
+}
+
+.form-floating.mb-3 input::-moz-placeholder {
+color: transparent;
+}
+
+.form-floating.mb-3 input:-ms-input-placeholder {
+color: transparent;
+}
+
+.form-floating.mb-3 input::placeholder {
+color: transparent;
+}
+
+
+#copy-container{
+text-align: center;
+padding: 30px;
+font-size: 1.6em;
+}
+
+#footer-links-container li{
+font-size: 1em;
+text-align: center;
+
+}
+
+
+#footer-links-container a{
+text-decoration: none;
+}
+
+#footer-links-container a{
+color: #c09578;
+}
+
+#footer-center{
+border-left: 1px solid #ffffff;
+border-right:1px solid hsl(0, 100%, 100%);
+}
+
+#footer-center h3{
+font-weight: 900;
+}
+
+#footer-center .store-phone{
+color: #c09578;
+font-weight: bold;
+font-size: 2em;
+margin-top: -15px;
+}
+
+#newsletter-container{
+
+border-bottom: 1px solid #ffffff;
+text-align: center;
+padding: 20px;
+
+}
+#news-form{
+max-width: 600px;
+margin: 15px auto;
+}
+
+#news-form i{
+font-size:1.5em ;
+}
+#news-form .btn{
+color: #000000;
+}
+
+#social-container{
+margin: 20px auto;
+}
+
+#social-container i {
+font-size: 1.5em;
+margin: 10px;
+cursor: pointer;
+color: #00ff44;
+transition: .3s;
+}
+
+#social-container i:hover{
+color: #0044ff;
+}
+#copy-container {
+color: #fff !important;
+}
+.yt{
+color: red;
+}
+
+
